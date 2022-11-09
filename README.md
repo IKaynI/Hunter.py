@@ -37,4 +37,4 @@ To launch the game, open the file main.py then run it.
 
 ## Authors
 
-  - **Kayn** -**[Kayn](https://github.com/IKojiI)**
+  - **Kayn**
