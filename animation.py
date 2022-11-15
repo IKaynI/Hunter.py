@@ -4,7 +4,7 @@ import pygame
 class Animation_player_rundroite(pygame.sprite.Sprite):
     def __init__(self,cible):
         super().__init__()
-        self.sprite_sheet = pygame.image.load("Assets/player.png")
+        self.sprite_sheet = pygame.image.load("Assets/Gunner_Blue_Idle.png")
         self.image = self.get_image(0,0)
         self.images2 = animation.get("runleft")
         self.images3 = animation.get("run-monstre")
@@ -47,6 +47,7 @@ class Animation_player_rundroite(pygame.sprite.Sprite):
                 x = self.get_image1(0,0,self.image)
                 self.image = x
                 self.image.set_colorkey(0,0)
+    # courir monstre
     def animate2(self):
             if self.animation is True:
                 self.current_image += 0.2

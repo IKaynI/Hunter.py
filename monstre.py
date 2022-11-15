@@ -14,8 +14,7 @@ class monstre(animation.Animation_player_rundroite):
         self.pv_max = 100
         self.pv = 100
         self.vitesse = 1.75
-        #self.rect.x = 400
-        #self.rect.y = 360
+    # Le monstre se déplace selon les coordonnées du joueur
     def avancer(self):
         self.active_animation()
         self.animate2()
@@ -60,3 +59,4 @@ class monstre(animation.Animation_player_rundroite):
         self.box.midbottom = self.rect.midbottom
     def retour_arriere(self):
         pass
+# --------------------------------------------------------------------------- Boss------------------------------------------------------   
